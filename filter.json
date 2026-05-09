@@ -1,32 +1,49 @@
 {
   "settings": {
     "home_url": "https://www.google.com",
-    "news": "【運営】今日は勉強ポイント2倍キャンペーン！",
+    "news": "【重要】Instagramを制限対象に追加しました。勉強サイトを見てポイントを貯めよう！",
     "point_multiplier": 3,
-    "exp_per_minute": 50
+    "exp_per_minute": 50,
+    "version": "2.1.0"
+  },
+  "features": {
+    "ai_panel": true,
+    "dark_mode": true,
+    "strict_mode": true
   },
   "study_sites": [
     "wikipedia.org",
     "mext.go.jp",
-    "nhk.or.jp"
+    "nhk.or.jp",
+    "khanacademy.org",
+    "ebrain.co.jp",
+    "shinkansen.plus",
+    "try-it.jp",
+    "nli-research.co.jp",
+    "e-stat.go.jp",
+    "aozora.gr.jp"
   ],
   "black_lists": {
-    "10歳（キッズ）": ["youtube.com", "tiktok.com"],
-    "15歳（ジュニア）": ["5ch.net"],
+    "10歳（キッズ）": [
+      "youtube.com",
+      "tiktok.com",
+      "instagram.com",
+      "facebook.com",
+      "twitter.com",
+      "x.com",
+      "twitch.tv",
+      "roblox.com",
+      "discord.com",
+      "netflix.com",
+      "disneyplus.com",
+      "hulu.jp"
+    ],
+    "15歳（ジュニア）": [
+      "5ch.net",
+      "2ch.sc",
+      "instagram.com",
+      "tiktok.com"
+    ],
     "管理者": []
   }
-}
-{
-  "settings": {
-    "home_url": "https://www.google.com",
-    "news": "最新アップデート！AIパネルの遠隔操作に対応しました。"
-  },
-  "features": {
-    "ai_panel": true,
-    "dark_mode": false
-  },
-  "black_lists": {
-    "10歳（キッズ）": ["youtube.com"]
-  },
-  "study_sites": ["wikipedia.org"]
 }
