@@ -16,3 +16,17 @@
     "管理者": []
   }
 }
+{
+  "settings": {
+    "home_url": "https://www.google.com",
+    "news": "最新アップデート！AIパネルの遠隔操作に対応しました。"
+  },
+  "features": {
+    "ai_panel": true,
+    "dark_mode": false
+  },
+  "black_lists": {
+    "10歳（キッズ）": ["youtube.com"]
+  },
+  "study_sites": ["wikipedia.org"]
+}
