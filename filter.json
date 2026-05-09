@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "home_url": "https://www.google.com",
+    "news": "【運営】今日は勉強ポイント3倍キャンペーン！",
+    "point_multiplier": 3,
+    "exp_per_minute": 50
+  },
+  "study_sites": [
+    "wikipedia.org",
+    "mext.go.jp",
+    "nhk.or.jp"
+  ],
+  "black_lists": {
+    "10歳（キッズ）": ["youtube.com", "tiktok.com"],
+    "15歳（ジュニア）": ["5ch.net"],
+    "管理者": []
+  }
+}
